@@ -75,6 +75,24 @@
   color: gray;
 }
 
+.service-button {
+  display: inline-block;
+  margin-top: 4px;
+  padding: 10px 18px;
+  border-radius: 6px;
+  background: #263d91;
+  color: #fff;
+  font-size: 14px;
+  font-weight: 600;
+  text-decoration: none;
+  transition: background-color 0.2s ease;
+}
+
+.service-button:hover,
+.service-button:focus-visible {
+  background: #192b6d;
+}
+
 @media (max-width: 900px) {
   .services-grid,
   .service-grid {

@@ -5,6 +5,7 @@ import "./Home.css";
 import Wcms from "./Wcms"
 import Login from "./Login"
 import Review from "./Review"
+import { Link } from "react-router-dom";
 
 function Home() {
   return (
@@ -20,18 +21,21 @@ function Home() {
             <div className="service-image"><img src="https://carcid.com/wp-content/uploads/2024/10/30-goautocity-30color-1024x576-1.jpg" alt="" /></div>
             <h3 className="service-name">Used-Car Inspection</h3>
             <p className="service-text">For Pre-Owned Cars</p>
+            <Link className="service-button" to="/used-car-inspection">Explore Service</Link>
           </div>
 
           <div className="service-card">
             <div className="service-image"><img src="https://cdn.prod.website-files.com/65ba231f3fc718d503140576/6687b9d4f75d60201f860517_Pre-delivery%20Inspection%20Solution%20Module%20Introduced%20By%20Intellinet.jpg" alt="" /></div>
             <h3 className="service-name">Pre-Delivery Inspection</h3>
             <p className="service-text">For Brand-New Cars</p>
+            <Link className="service-button" to="/pre-delivery-inspection">Explore Service</Link>
           </div>
 
           <div className="service-card">
             <div className="service-image"><img src="https://blog.droom.in/droomassets/uploads/2021/01/check-vehicle-service-history.jpg" alt="Vehicle Service History" /></div>
             <h3 className="service-name">Vehicle Service History</h3>
             <p className="service-text">Track Every Service</p>
+            <Link className="service-button" to="/vehicle-service-history">Explore Service</Link>
           </div>
 
           <div className="service-card">
