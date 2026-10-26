@@ -1,0 +1,111 @@
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@400;500;600;700&display=swap");
+
+.rc-page {
+  font-family: "Outfit", sans-serif;
+  color: #111;
+}
+
+.rc-hero {
+  min-height: 400px;
+  padding: 16px 70px 50px;
+  color: #fff;
+  background-size: cover;
+  background-position: center;
+}
+
+.rc-back {
+  display: inline-block;
+  padding: 10px 20px;
+  background: rgba(255, 255, 255, 0.25);
+  color: #fff;
+  border-radius: 8px;
+  text-decoration: none;
+}
+
+.rc-hero h1 {
+  font-size: 48px;
+  margin: 40px 0 10px;
+}
+
+.rc-hero p {
+  font-size: 20px;
+  max-width: 800px;
+  line-height: 1.5;
+}
+
+.rc-book {
+  display: inline-block;
+  margin-top: 20px;
+  padding: 14px 36px;
+  background: #2e7d5b;
+  color: #fff;
+  border-radius: 8px;
+  font-size: 18px;
+  text-decoration: none;
+}
+
+.rc-content {
+  display: flex;
+  gap: 40px;
+  padding: 40px 70px;
+}
+
+.rc-left {
+  flex: 2;
+}
+
+.rc-left h2 {
+  font-size: 36px;
+  text-transform: uppercase;
+  margin: 0 0 10px;
+}
+
+.rc-tagline {
+  font-weight: 600;
+  font-size: 20px;
+}
+
+.rc-left p {
+  color: #555;
+  line-height: 1.6;
+}
+
+.rc-left li {
+  line-height: 2;
+  color: #333;
+}
+
+.rc-card {
+  flex: 1;
+  align-self: flex-start;
+  background: #f7f7f7;
+  border: 1px solid #e5e5e5;
+  border-radius: 14px;
+  padding: 30px;
+}
+
+.rc-card h4 {
+  margin: 0 0 6px;
+  font-size: 20px;
+}
+
+.rc-card p {
+  margin: 0 0 20px;
+  color: #555;
+}
+
+@media (max-width: 768px) {
+  .rc-hero,
+  .rc-content {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+  .rc-hero h1 {
+    font-size: 32px;
+  }
+
+  .rc-content {
+    flex-direction: column;
+  }
+}

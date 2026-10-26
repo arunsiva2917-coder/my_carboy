@@ -1,6 +1,8 @@
-import React, { useState } from "react";
+import { useState } from "react";
 import {Link, useNavigate} from "react-router-dom";
 import {API_URL} from "./Api";
+import "../test/Registers.css"
+
 
 function Register() {
 
@@ -31,7 +33,7 @@ function Register() {
         setMessage(data.message);
       }
 
-    }catch (err) {
+    }catch {
       setMessage("Cannot connect to server");
     }
 

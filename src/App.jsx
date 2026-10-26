@@ -13,6 +13,9 @@ import Review from "./component/Review.jsx"
 import UsedCar from "./component/Usedcar.jsx";
 import PreDelivery from "./component/Predelivery.jsx";
 import ServiceHistory from "./component/Servicehistory.jsx";
+import ExtendedWarranty from "./component/ExtendedWarranty.jsx";
+import CarValuation from "./component/CarValuations.jsx"
+import RCTransfer from "./component/RCTransfer.jsx";
 
 function App() {
   return (
@@ -31,6 +34,9 @@ function App() {
         <Route path="/used-car-inspection" element={<UsedCar />} />
         <Route path="/pre-delivery-inspection" element={<PreDelivery />} />
         <Route path="/vehicle-service-history" element={<ServiceHistory />}/>
+        <Route path="/extended-warranty" element={<ExtendedWarranty />} />
+        <Route path="/car-valuation" element={<CarValuation />} />
+        <Route path="/rc-transfer" element={<RCTransfer />} />
       </Routes>
   );
 }

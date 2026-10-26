@@ -1,0 +1,139 @@
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@400;500;600;700&display=swap");
+
+.value-page {
+  font-family: "Outfit", sans-serif;
+  color: #111;
+}
+
+.value-hero {
+  min-height: 400px;
+  padding: 16px 70px 50px;
+  color: #fff;
+  background-size: cover;
+  background-position: center;
+}
+
+.value-back {
+  display: inline-block;
+  padding: 10px 20px;
+  background: rgba(255, 255, 255, 0.25);
+  color: #fff;
+  border-radius: 8px;
+  text-decoration: none;
+}
+
+.value-hero h1 {
+  font-size: 48px;
+  margin: 40px 0 10px;
+}
+
+.value-hero p {
+  font-size: 20px;
+  max-width: 800px;
+  line-height: 1.5;
+}
+
+.value-book {
+  display: inline-block;
+  margin-top: 20px;
+  padding: 14px 36px;
+  background: #2e7d5b;
+  color: #fff;
+  border-radius: 8px;
+  font-size: 18px;
+  text-decoration: none;
+}
+
+.value-content {
+  display: flex;
+  gap: 40px;
+  padding: 40px 70px;
+}
+
+.value-left {
+  flex: 2;
+}
+
+.value-left h2 {
+  font-size: 36px;
+  text-transform: uppercase;
+  margin: 0 0 10px;
+}
+
+.value-tagline {
+  font-weight: 600;
+  font-size: 20px;
+}
+
+.value-left p {
+  color: #555;
+  line-height: 1.6;
+}
+
+.value-left li {
+  line-height: 2;
+  color: #333;
+}
+
+.value-card {
+  flex: 1;
+  align-self: flex-start;
+  background: #f7f7f7;
+  border: 1px solid #e5e5e5;
+  border-radius: 14px;
+  padding: 30px;
+}
+
+.value-card h4 {
+  margin: 0 0 6px;
+  font-size: 20px;
+}
+
+.value-card p {
+  margin: 0 0 20px;
+  color: #555;
+}
+
+@media (max-width: 768px) {
+  .value-hero,
+  .value-content {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+  .value-hero h1 {
+    font-size: 32px;
+  }
+
+  .value-content {
+    flex-direction: column;
+  }
+}
+
+.value-card input {
+  display: block;
+  width: 100%;
+  padding: 12px;
+  margin-bottom: 14px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  font-family: inherit;
+  box-sizing: border-box;
+}
+
+.value-card button {
+  width: 100%;
+  padding: 12px;
+  background: #2e7d5b;
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  font-size: 16px;
+  font-family: inherit;
+  cursor: pointer;
+}
+
+.value-message {
+  margin-top: 14px !important;
+  color: #2e7d5b !important;
+}

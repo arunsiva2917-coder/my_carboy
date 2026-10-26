@@ -3,7 +3,6 @@ import Nav from "./Nav";
 import Footer from "./Footer";
 import "./Home.css";
 import Wcms from "./Wcms"
-import Login from "./Login"
 import Review from "./Review"
 import { Link } from "react-router-dom";
 
@@ -42,18 +41,22 @@ function Home() {
             <div className="service-image"><img src="https://www.grandstreamindia.com/images/services/extended-warranty-0.jpg" alt="Extended Warranty" /></div>
             <h3 className="service-name">Extended Warranty</h3>
             <p className="service-text">Extra Peace of Mind</p> 
+            <Link className="service-button" to="/extended-warranty">Explore Service</Link>
           </div>
 
           <div className="service-card">
             <div className="service-image"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRmoYqsR5NYembrwlFb5tmY19Jh2CNTs8DBK5L-LhX9IARBo7bRi65v&s=10" alt="Car Valuation" /></div>
             <h3 className="service-name">Car Valuation</h3>
             <p className="service-text">Know Your Car's Worth</p>
+            <Link className="service-button" to="/car-valuation">Explore Service</Link>
+
           </div>
 
           <div className="service-card">
             <div className="service-image"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQeQ34fAqYYLmXnJHfmN1iEcR2evwsSLahFQIg6E-2McsX7ye-KV0FVu1g&s=10" alt="RC Transfer Help" /></div>
             <h3 className="service-name">RC Transfer Help</h3>
             <p className="service-text">Easy Paperwork Support</p>
+            <Link className="service-button" to="/rc-transfer">Explore Service</Link>
           </div>
 
         </div>

@@ -1,4 +1,3 @@
-import React from "react";
 import "./Contact.css";
 import Nav from "./Nav";
 import Footer from "./Footer.jsx";

@@ -12,7 +12,7 @@
   color: white;
   background-image:
     linear-gradient(to right, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.2)),
-    url("/images/pre-delivery-hero.jpg");
+    url("https://cdn.prod.website-files.com/65ba231f3fc718d503140576/6687b9d4f75d60201f860517_Pre-delivery%20Inspection%20Solution%20Module%20Introduced%20By%20Intellinet.jpg");
   background-size: cover;
   background-position: center;
 }

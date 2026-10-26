@@ -1,4 +1,4 @@
-import { Link, useNavigate } from "react-router-dom";
+import { useNavigate } from "react-router-dom";
 
 import { IoIosHome, IoMdContact } from "react-icons/io";
 import { FcAbout } from "react-icons/fc";
